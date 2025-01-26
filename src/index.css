@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=El+Messiri:wght@400;700;800&display=swap');
+
+:root {
+  --mainfont: "Almarai", sans-serif; /* Added sans-serif as fallback */
+  --main-body-bg: #f8f8f8;
+  --main-fs: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--mainfont) !important;
+  background-color: var(--main-body-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: var(--main-fs);
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ */
+.reqtangle {
+
+  height: 600px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 4px 4px 1px rgba(85,85,85,0.25);
+}
+.dates-count {
+  color: #555555;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.img-avatar{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  
+}
+
+.list-h4 {
+  color: #f32e32ab;
+}
